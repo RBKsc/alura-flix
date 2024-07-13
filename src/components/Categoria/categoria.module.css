@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 432px;
+    height: 70px;
+    border-radius: 15px;
+    margin: 1% 1%;
+}
+
+.categoria h1 {
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* TABLET */
+
+@media (max-width:1024px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 2% 2%;
+    }
+
+    .borda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0 0 0;
+    }
+}
+
+/* CELULAR */
+
+@media (max-width:430px) {
+    
+}

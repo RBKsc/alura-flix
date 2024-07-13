@@ -1,0 +1,43 @@
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 3em;
+    background-color: #11130a;
+    height: 20%;
+}
+
+.containerLogo{
+    height: 40px;
+    display: flex;
+    align-items:center;
+}
+
+.head img {
+    align-self: start;
+    max-width:50%;
+}
+
+button{
+    background-color: #040405;
+    border: none;
+    color:  #f6f6f6;
+    padding: 1em 3em;
+    margin: 2em 0;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    cursor:pointer;
+    transition: opacity .3s;
+    box-sizing: border-box;
+    border: 3px double rgb(107, 107, 209);
+    font-weight: 4500;
+}
+
+button:hover,
+button:focus {
+  opacity: .5;
+  color: rgb(175, 159, 248);
+}
+
+
