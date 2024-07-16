@@ -1,35 +1,34 @@
-{
-  "videos": [
+ [
     {
       "id": 1,
       "titulo": "cuando usar let,var y const",
       "imagen": "https://i.ibb.co/nMmsf6h/front2.png",
-      "video": "https://www.youtube.com/watch?v=PztCEdIJITY",
-      "Categoria": "Front End",
+      "vid": "https://www.youtube.com/watch?v=PztCEdIJITY",
+      "categoria": "Front End",
       "descripcion": "In the modern design world, Lorem Ipsum is the industry standard when placing dummy text onto an unfinished page, whether it's a newspaper, magazine, or advertisement."
     },
     {
       "id": 2,
       "titulo": "que es javascript",
       "imagen": "https://i.ibb.co/CwZ91Vs/front.png",
-      "video": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s",
-      "Categoria": "Front End",
+      "vid": "https://www.youtube.com/watch?v=GJfOSoaXk4s&t=433s",
+      "categoria": "Front End",
       "decripcion": "javascript"
     },
     {
       "id":3,
       "titulo": "Que son las softs skills",
       "imagen": "https://i.ibb.co/6ZSJKn5/inv2.png",
-      "video": "https://www.youtube.com/watch?v=vhwspfvI52k&t=189s",
-      "Categoria": "Innovacion y Gestion",
+      "vid": "https://www.youtube.com/watch?v=vhwspfvI52k&t=189s",
+      "categoria": "Innovacion y Gestion",
       "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día."
     },
     {
       "id": 4,
       "titulo": "Spring Framework. ¿Qué es ? ",
       "imagen": "https://i.ibb.co/JR8WDBK/back2.png",
-      "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
-      "Categoria": "BackEnd",
+      "vid": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+      "categoria": "BackEnd",
       "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda."
       
     },
@@ -37,8 +36,8 @@
       "id": 5,
       "titulo": "Box Model y Box sizing",
       "imagen":  "https://i.ibb.co/yd0P5XR/back.png",
-      "video": "https://www.youtube.com/watch?v=ts9qfCKamKg&t=5s",
-      "Categoria": "Front End",
+      "vid": "https://www.youtube.com/watch?v=ts9qfCKamKg&t=5s",
+      "categoria": "Front End",
       "descripcion": "Box Model y Box sizing"
       
     },
@@ -46,8 +45,8 @@
       "id": 6,
       "titulo": "Empresas que aprenden ",
       "imagen": "https://i.ibb.co/j6yMmDR/inv.png",
-      "video": "https://www.youtube.com/watch?v=mwNfWRsDDWE",
-      "Categoria": "Innovacion y Gestion",
+      "vid": "https://www.youtube.com/watch?v=mwNfWRsDDWE",
+      "categoria": "Innovacion y Gestion",
       "descripcion": "**El aprendizaje organizacional promueve tanto la adaptación al cambio como el crecimiento de la empresa**."
       
     },
@@ -55,8 +54,8 @@
       "id": 7,
       "titulo": "7 Soft Skills más deseadas por las empresas",
       "imagen": "https://i.ibb.co/j6yMmDR/inv.png",
-      "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
-      "Categoria": "Innovacion y Gestion",
+      "vid": "https://www.youtube.com/watch?v=YhR7Zp8NUzE",
+      "categoria": "Innovacion y Gestion",
       "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? "
       
     },
@@ -64,12 +63,11 @@
       "id": 8,
       "titulo": "Simplificando tu código en Java: Conoce los enum ",
       "imagen": "https://i.ibb.co/wQRVvsg/back1.png",
-      "video": "https://www.youtube.com/watch?v=EoPvlE85XAQ&t=68s",
-      "Categoria": "BackEnd",
-      "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? "
+      "vid": "https://www.youtube.com/watch?v=EoPvlE85XAQ&t=68s",
+      "categoria": "BackEnd",
+      "descripcion": "¿escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? "
      
     }
 
   ]
  
-}

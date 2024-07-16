@@ -1,7 +1,10 @@
+import { useState } from "react"
 import Banner from "../../components/Banner/banner"
-
+import videos from "../../data/db.json"
 import Categoria from "../../components/Categoria/categoria"
-import EditarCard from "../../components/editarCard/editarCard"
+import Cards from "../../components/Cards/card"
+
+
 
 
 
@@ -9,14 +12,41 @@ import EditarCard from "../../components/editarCard/editarCard"
 
 const Inicio =()=> {
     
+    const [categorias, setCategorias]=useState([
+        {
+          id:"1",
+          titulo:"Front End",
+          colorPrimario: "#57C278",
+          
+        },
+    
+       {
+         id:"2",
+         titulo: "Innovación y Gestión",
+         colorPrimario: "#82CFFA",
+         
+       },
+      
+        {
+          id:"3",
+          titulo: "Back End",
+          colorPrimario: "#FF8A29",
+          }    
+      ])
 
     return ( 
         <>
         <Banner/>
-        <EditarCard/>
-        <Categoria Categoria={'BACKEND'} />
-        <Categoria Categoria={'FRONTEND'} />
-        <Categoria Categoria={'INNOVACIONYGESTION'}/>
+       
+        {
+        categorias.map((categorias)=><Categoria
+        datos={categorias} 
+        key={categorias.titulo}
+        videos={videos.filter(video => video.categoria ===categorias.titulo)}
+        
+        />)
+      }
+       
         
         </>
     )
